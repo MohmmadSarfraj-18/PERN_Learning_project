@@ -1,0 +1,22 @@
+{
+	"name": "userauthenticate",
+	"version": "1.0.0",
+	"description": "This project is made for practice of JWT and file-upload.",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Mohmmad Sarfraj",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"express-fileupload": "^1.5.1",
+		"express-validator": "^7.2.0",
+		"jsonwebtoken": "^9.0.2",
+		"nodemon": "^3.1.7",
+		"pg": "^8.13.0"
+	}
+}
